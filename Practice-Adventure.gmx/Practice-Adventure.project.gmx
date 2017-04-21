@@ -10,6 +10,10 @@
     <sprite>sprites\sprEnemy</sprite>
     <sprite>sprites\sprWall</sprite>
     <sprite>sprites\sprDoor</sprite>
+    <sprite>sprites\sprHeroDown</sprite>
+    <sprite>sprites\sprHeroLeft</sprite>
+    <sprite>sprites\sprHeroRight</sprite>
+    <sprite>sprites\sprHeroUp</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -19,8 +23,10 @@
     <object>objects\objEnemyH</object>
     <object>objects\objEnemyV</object>
     <object>objects\objDoor</object>
+    <object>objects\objHero</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rmIntro</room>
     <room>rooms\rmLevelOne</room>
   </rooms>
   <help>
